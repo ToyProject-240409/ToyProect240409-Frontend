@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/layout_round"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/popularNews1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/ibm_medium"
+            android:text="치료를 고민하고 계신 분들께 .. 제가 최근 5년간 치료받았던 후기를 전달해드리고자 합니다..." />
+
+        <TextView
+            android:id="@+id/nickName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ibm_medium"
+            android:text="배부른 사자" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/layout_round"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/popularNews2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/ibm_medium"
+            android:text="안녕하세요! 최근 경기 가나다에서 입원 치료를 진행했고 관련하여 후기를 작성하고자 합니다... " />
+
+        <TextView
+            android:id="@+id/nickName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ibm_medium"
+            android:text="졸린 까마귀" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/layout_round"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/popularNews3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/ibm_medium"
+            android:text="혹시 선언 같이 하실 분 계신가요? 혼자 하다보니 자꾸 까먹어서 오픈 채팅방 같은거 파서..." />
+
+        <TextView
+            android:id="@+id/nickName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/ibm_medium"
+            android:text="웃는 기린" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
